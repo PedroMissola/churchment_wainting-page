@@ -70,6 +70,7 @@ coverage/
 # Misc
 .DS_Store
 *.pem
+churchment-318e6-firebase-adminsdk-fbsvc-359cd440e2.json
 
 # Public folders (commented as optional)
 /public
