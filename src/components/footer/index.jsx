@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-x-12 gap-y-3 py-10 px-8 text-center md:justify-between bg-neutral-900 text-neutral-100">
-      <p classNameName="font-sans antialiased text-base text-current">
+      <p className="font-sans antialiased text-base text-current">
         © 2025 Churchment. Todos os direitos Reservados
       </p>
       <ul className="flex flex-wrap items-center gap-x-6 gap-y-2">

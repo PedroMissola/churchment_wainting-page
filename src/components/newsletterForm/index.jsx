@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
+import { Input } from "@/components/ui/input";
 
 export default function NewsletterForm() {
   const [email, setEmail] = useState("");
@@ -67,18 +68,12 @@ export default function NewsletterForm() {
       >
         <div className="relative w-full">
           <input
-            ref={inputRef}
-            type="email"
+            className="w-full aria-disabled:cursor-not-allowed outline-none focus:outline-none text-neutral-100 placeholder:text-neutral-200/60 bg-transparent ring-transparent border border-neutral-400 transition-all duration-300 ease-in disabled:opacity-50 disabled:pointer-events-none data-[error=true]:border-red-500 data-[success=true]:border-green-500 data-[shape=pill]:rounded-full text-base rounded-lg py-3 px-3 ring-4 data-[icon-placement=start]:ps-11 data-[icon-placement=end]:pe-11 hover:border-neutral-700 hover:ring-neutral-700/10 focus:border-neutral-700 focus:ring-neutral-700/10 peer"
             placeholder="E-mail"
+            type="email"
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full bg-transparent border border-neutral-400 rounded-lg py-3 px-3 text-base text-neutral-400 placeholder:text-neutral-300/60 transition-all duration-300 ease-in
-              data-[error=true]:border-red-500
-              data-[success=true]:border-green-500
-              focus:outline-none focus:border-neutral-800 focus:ring-neutral-800/10 ring-4 ring-transparent"
-            data-error="false"
-            data-success="false"
           />
         </div>
         <button

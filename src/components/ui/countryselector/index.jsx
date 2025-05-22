@@ -122,7 +122,7 @@ export default function CountrySelect({ countries, selectedIso2, onChange }) {
         aria-label={`Selecionar país, atualmente ${
           selectedCountry?.name || "Nenhum"
         }`}
-        className="flex items-center gap-2 w-full rounded-lg border border-gray-300 px-3 py-3 text-left"
+        className="flex items-center gap-2 w-full text-left aria-disabled:cursor-not-allowed outline-none focus:outline-none text-neutral-900 placeholder:text-neutral-600/60 bg-transparent ring-transparent border border-neutral-300 transition-all duration-300 ease-in disabled:opacity-50 disabled:pointer-events-none data-[error=true]:border-red-500 data-[success=true]:border-green-500 data-[shape=pill]:rounded-full text-base rounded-lg py-3 px-3 ring-4 data-[icon-placement=start]:ps-11 data-[icon-placement=end]:pe-11 hover:border-neutral-800 hover:ring-neutral-800/10 focus:border-neutral-800 focus:ring-neutral-800/10 peer"
         ref={inputRef}
       >
         {selectedCountry && selectedCountry.iso2 ? (
