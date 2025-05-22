@@ -10,7 +10,7 @@ function isValidEmail(email) {
 }
 
 function isValidArea(area) {
-  const validAreas = ["dev", "mkt", "design"];
+  const validAreas = ["dev", "mkt", "des", "cib", "ia", "esc"];
   return validAreas.includes(area);
 }
 

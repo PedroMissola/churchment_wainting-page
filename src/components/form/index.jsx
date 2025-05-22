@@ -208,8 +208,11 @@ export default function Form() {
             Escolha uma área de interesse
           </option>
           <option value="dev">Desenvolvimento</option>
+          <option value="cib">Cibersegurança</option>
+          <option value="ia">Inteligencia artificial</option>
+          <option value="esc">Escritor</option>
           <option value="mkt">Marketing</option>
-          <option value="design">Design</option>
+          <option value="des">Design</option>
         </select>
         {errors.area && (
           <span className="text-red-500 text-sm">{errors.area}</span>
