@@ -30,19 +30,19 @@ export default function Home() {
           </motion.div>
           <NewsletterForm />
         </main>
-        <motion.section
-          id="sobre"
-          className="..."
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.8 }}
-        >
+
         <section
+          id="sobre"
           aria-labelledby="sobre-churchment"
           className="px-8 py-16 bg-white flex flex-col md:flex-row gap-16"
         >
-          <div className="w-full md:w-1/2 mx-auto space-y-3">
+          <motion.div
+            className="w-full md:w-1/2 mx-auto space-y-3"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.8 }}
+          >
             <h2
               id="sobre-churchment"
               className="text-neutral-900 font-sans text-xl font-bold antialiased md:text-2xl lg:text-3xl"
@@ -88,8 +88,16 @@ export default function Home() {
                 </dd>
               </div>
             </dl>
-          </div>
-          <div className="w-full md:w-1/2 mx-auto space-y-3" id="form">
+          </motion.div>
+
+          <motion.div
+            className="w-full md:w-1/2 mx-auto space-y-3"
+            id="form"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
             <h2
               id="sobre-churchment"
               className="text-neutral-900 text-center font-sans text-xl font-bold antialiased md:text-2xl lg:text-3xl"
@@ -101,9 +109,9 @@ export default function Home() {
               conversar.
             </p>
             <Form />
-          </div>
+          </motion.div>
         </section>
-        </motion.section>
+
         <SpeedInsights />
       </div>
     </>
