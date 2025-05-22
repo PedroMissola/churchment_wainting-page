@@ -9,13 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "firebase": "^11.6.0",
     "firebase-admin": "^13.2.0",
+    "google-libphonenumber": "^3.2.40",
+    "lucide-react": "^0.511.0",
     "next": "15.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-input-mask": "^2.0.4",
+    "react-international-phone": "^4.5.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
