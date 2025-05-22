@@ -78,7 +78,7 @@ export default function NewsletterForm() {
         </div>
         <button
           type="submit"
-          className="bg-gradient-to-tr from-[#F4511E] to-[#FF7043] text-neutral-50 rounded-md py-2 px-8 text-sm hover:brightness-105"
+          className="bg-gradient-to-tr from-[#F4511E] to-[#FF7043] text-neutral-50 rounded-md py-2 px-8 text-sm hover:brightness-125"
         >
           Participar
         </button>
