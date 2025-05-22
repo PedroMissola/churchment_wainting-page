@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-x-12 gap-y-3 py-5 px-8 text-center md:justify-between bg-neutral-900 text-neutral-100">
@@ -6,24 +8,28 @@ export default function Footer() {
       </p>
       <ul className="flex flex-wrap items-center gap-x-6 gap-y-2">
         <li>
-          <a href="#" className="font-sans antialiased text-base text-current hover:text-neutral-100">
+          <Link
+            href="/#home"
+            className="font-sans antialiased text-base text-current hover:text-neutral-100"
+          >
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" className="font-sans antialiased text-base text-current hover:text-neutral-100">
+          <Link
+            href="/#sobre"
+            className="font-sans antialiased text-base text-current hover:text-neutral-100"
+          >
             Sobre Nós
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" className="font-sans antialiased text-base text-current hover:text-neutral-100">
+          <Link
+            href="/#form"
+            className="font-sans antialiased text-base text-current hover:text-neutral-100"
+          >
             Participe
-          </a>
-        </li>
-        <li>
-          <a href="#" className="font-sans antialiased text-base text-current hover:text-neutral-100">
-            Entre em contato
-          </a>
+          </Link>
         </li>
       </ul>
     </footer>
