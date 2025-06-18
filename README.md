@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Churchment - Plataforma de Gestão para Igrejas
 
-## Getting Started
+[![Site em Produção](https://img.shields.io/badge/Site-Produção-brightgreen)](http://churchmentrealse.vercel.app/)
+[![Tecnologia React](https://img.shields.io/badge/React-18.2.0-%2361DAFB)](https://react.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-Cloud%20Database-orange)](https://firebase.google.com/)
 
-First, run the development server:
+Landing page oficial do **Churchment**, uma plataforma inovadora para gestão e comunicação em comunidades religiosas. Esta página serve como pré-lançamento para captar interessados e compartilhar atualizações sobre o desenvolvimento da plataforma.
+
+![Churchment Preview](https://via.placeholder.com/800x400?text=Churchment+Landing+Page+Preview) <!-- Adicione uma imagem real posteriormente -->
+
+## ✨ Sobre o Churchment
+O Churchment é uma solução completa desenvolvida para:
+- Centralizar a gestão de membros e atividades
+- Facilitar a comunicação interna
+- Organizar eventos e programações
+- Integrar ferramentas de engajamento comunitário
+
+Esta landing page apresenta nossa visão e permite que igrejas interessadas manifestem interesse no produto antes do lançamento oficial.
+
+## 🚀 Funcionalidades da Página
+1. **Formulário de Interesse**  
+   Para líderes e igrejas que desejam ser **early adopters** da plataforma
+2. **Newsletter**  
+   Receba atualizações sobre o desenvolvimento e lançamento
+3. **Informações sobre a Plataforma**  
+   Detalhes sobre recursos e benefícios
+4. **Design Responsivo**  
+   Experiência otimizada para todos os dispositivos
+
+## 🛠 Tecnologias Utilizadas
+- **React 18** - Biblioteca principal
+- **Tailwind CSS** - Estilização principal
+- **Material Tailwind 3** - Componentes UI
+- **Firebase** - Armazenamento de dados dos formulários
+- **Vercel** - Hospedagem e deploy contínuo
+
+## 🔧 Configuração Local
+Siga estes passos para executar localmente:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Clone o repositório
+git clone https://github.com/PedroMissola/churchment_wainting-page.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Instale as dependências
+npm install
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Crie um arquivo .env com suas credenciais do Firebase
+REACT_APP_FIREBASE_API_KEY=your-key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your-domain
+REACT_APP_FIREBASE_PROJECT_ID=your-project
+REACT_APP_FIREBASE_STORAGE_BUCKET=your-bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
+REACT_APP_FIREBASE_APP_ID=your-app-id
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Inicie o servidor de desenvolvimento
+npm start
