@@ -1,6 +1,6 @@
 # Churchment - Landing Page de Pré-Lançamento
 
-[![Site em Produção](https://img.shields.io/badge/Site-Produção-brightgreen)](https://churchmentrealse.vercel.app)
+[![Site em Produção](https://img.shields.io/badge/Site-Produção-brightgreen)](https://churchmentrelease.vercel.app/)
 [![React](https://img.shields.io/badge/React-18.2.0-%2361DAFB)](https://react.dev)
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4.1-38B2AC?logo=tailwindcss)](https://tailwindcss.com)
 [![Firebase](https://img.shields.io/badge/Firebase-Cloud%20Database-orange?logo=firebase)](https://firebase.google.com)
