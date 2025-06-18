@@ -36,7 +36,7 @@ Essa landing page antecipa o lançamento do sistema, promovendo inscrições par
 * **React 18.2.0** — Biblioteca principal para construção da interface;
 * **Tailwind CSS 3.4.1** — Utilizado para estilização customizada e responsiva;
 * **Material Tailwind** — Componentes modernos prontos para uso;
-* **Firebase** — Banco de dados para armazenar e gerenciar os formulários de interesse;
+* **Firebase Admin** — Banco de dados para armazenar e gerenciar os formulários de interesse;
 * **Vercel** — Plataforma de deploy e hospedagem com CI/CD integrado.
 
 ## 🔧 Como Executar Localmente
@@ -50,12 +50,15 @@ $ cd churchment_wainting-page
 $ npm install
 
 # Crie um arquivo .env com as suas credenciais do Firebase
-REACT_APP_FIREBASE_API_KEY=your-key
-REACT_APP_FIREBASE_AUTH_DOMAIN=your-domain
-REACT_APP_FIREBASE_PROJECT_ID=your-project
-REACT_APP_FIREBASE_STORAGE_BUCKET=your-bucket
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
-REACT_APP_FIREBASE_APP_ID=your-app-id
+FIREBASE_TYPE=your-type
+FIREBASE_PROJECT_ID
+FIREBASE_PRIVATE_KEY_ID
+FIREBASE_PRIVATE_KEY
+FIREBASE_CLIENT_ID
+FIREBASE_AUTH_URI
+FIREBASE_TOKEN_URI
+FIREBASE_AUTH_PROVIDER_X509_CERT_URL
+FIREBASE_CLIENT_X509_CERT_URL
 
 # Inicie o servidor de desenvolvimento
 $ npm start
