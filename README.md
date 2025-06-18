@@ -54,3 +54,10 @@ REACT_APP_FIREBASE_APP_ID=your-app-id
 
 # Inicie o servidor de desenvolvimento
 npm start
+```
+
+---
+
+## 📅 Licença
+
+Este projeto está licenciado sob os termos da licença **MIT**. Sinta-se livre para utilizar, modificar e contribuir.
