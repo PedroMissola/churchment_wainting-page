@@ -1,50 +1,55 @@
-# Churchment - Plataforma de Gestão para Igrejas
+# Churchment - Landing Page de Pré-Lançamento
 
-[![Site em Produção](https://img.shields.io/badge/Site-Produção-brightgreen)](http://churchmentrealse.vercel.app/)
-[![Tecnologia React](https://img.shields.io/badge/React-18.2.0-%2361DAFB)](https://react.dev/)
-[![Firebase](https://img.shields.io/badge/Firebase-Cloud%20Database-orange)](https://firebase.google.com/)
+[![Site em Produção](https://img.shields.io/badge/Site-Produção-brightgreen)](https://churchmentrealse.vercel.app)
+[![React](https://img.shields.io/badge/React-18.2.0-%2361DAFB)](https://react.dev)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4.1-38B2AC?logo=tailwindcss)](https://tailwindcss.com)
+[![Firebase](https://img.shields.io/badge/Firebase-Cloud%20Database-orange?logo=firebase)](https://firebase.google.com)
+[![Vercel](https://img.shields.io/badge/Hosted_on-Vercel-black?logo=vercel)](https://vercel.com)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-Landing page oficial do **Churchment**, uma plataforma inovadora para gestão e comunicação em comunidades religiosas. Esta página serve como pré-lançamento para captar interessados e compartilhar atualizações sobre o desenvolvimento da plataforma.
+Landing page oficial de pré-lançamento do **Churchment**, uma plataforma desenvolvida para modernizar a gestão e a comunicação em comunidades cristãs. Este repositório contém o código da página de captura de interesse, voltada a igrejas que desejam acompanhar e participar do lançamento da plataforma.
 
-![Churchment Preview](https://via.placeholder.com/800x400?text=Churchment+Landing+Page+Preview) <!-- Adicione uma imagem real posteriormente -->
+![Churchment Preview](https://via.placeholder.com/800x400?text=Churchment+Landing+Page+Preview)
+
+---
 
 ## ✨ Sobre o Churchment
-O Churchment é uma solução completa desenvolvida para:
-- Centralizar a gestão de membros e atividades
-- Facilitar a comunicação interna
-- Organizar eventos e programações
-- Integrar ferramentas de engajamento comunitário
 
-Esta landing page apresenta nossa visão e permite que igrejas interessadas manifestem interesse no produto antes do lançamento oficial.
+O **Churchment** é uma plataforma digital de gestão ministerial que visa:
+
+* Centralizar informações de membros, eventos e escalas;
+* Facilitar a comunicação entre líderes e ministérios;
+* Promover o engajamento com ferramentas modernas e intuitivas;
+* Organizar toda a rotina administrativa da igreja com tecnologia acessível e segura.
+
+Essa landing page antecipa o lançamento do sistema, promovendo inscrições para a newsletter e reunindo contatos de igrejas interessadas em fazer parte do grupo de usuários iniciais.
 
 ## 🚀 Funcionalidades da Página
-1. **Formulário de Interesse**  
-   Para líderes e igrejas que desejam ser **early adopters** da plataforma
-2. **Newsletter**  
-   Receba atualizações sobre o desenvolvimento e lançamento
-3. **Informações sobre a Plataforma**  
-   Detalhes sobre recursos e benefícios
-4. **Design Responsivo**  
-   Experiência otimizada para todos os dispositivos
 
-## 🛠 Tecnologias Utilizadas
-- **React 18** - Biblioteca principal
-- **Tailwind CSS** - Estilização principal
-- **Material Tailwind 3** - Componentes UI
-- **Firebase** - Armazenamento de dados dos formulários
-- **Vercel** - Hospedagem e deploy contínuo
+* **Formulário de Captura de Interesse**: igrejas podem se cadastrar para receber novidades e serem convidadas ao acesso antecipado;
+* **Newsletter**: envio de atualizações sobre o desenvolvimento da plataforma;
+* **Sessões informativas**: explicação clara da visão, dos recursos e diferenciais do sistema;
+* **Design responsivo**: compatível com smartphones, tablets e desktops.
 
-## 🔧 Configuração Local
-Siga estes passos para executar localmente:
+## 🛠️ Tecnologias Utilizadas
+
+* **React 18.2.0** — Biblioteca principal para construção da interface;
+* **Tailwind CSS 3.4.1** — Utilizado para estilização customizada e responsiva;
+* **Material Tailwind** — Componentes modernos prontos para uso;
+* **Firebase** — Banco de dados para armazenar e gerenciar os formulários de interesse;
+* **Vercel** — Plataforma de deploy e hospedagem com CI/CD integrado.
+
+## 🔧 Como Executar Localmente
 
 ```bash
 # Clone o repositório
-git clone https://github.com/PedroMissola/churchment_wainting-page.git
+$ git clone https://github.com/PedroMissola/churchment_wainting-page.git
+$ cd churchment_wainting-page
 
 # Instale as dependências
-npm install
+$ npm install
 
-# Crie um arquivo .env com suas credenciais do Firebase
+# Crie um arquivo .env com as suas credenciais do Firebase
 REACT_APP_FIREBASE_API_KEY=your-key
 REACT_APP_FIREBASE_AUTH_DOMAIN=your-domain
 REACT_APP_FIREBASE_PROJECT_ID=your-project
@@ -53,11 +58,13 @@ REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
 REACT_APP_FIREBASE_APP_ID=your-app-id
 
 # Inicie o servidor de desenvolvimento
-npm start
+$ npm start
 ```
 
----
+## 📅 Status do Projeto
 
-## 📅 Licença
+Atualmente em fase de **captura de leads** e validação com usuários interessados. O produto principal está sendo desenvolvido e será lançado em fases, com acesso antecipado para igrejas cadastradas nesta página.
 
-Este projeto está licenciado sob os termos da licença **MIT**. Sinta-se livre para utilizar, modificar e contribuir.
+## 📝 Licença
+
+Este projeto está licenciado sob a licença [MIT](LICENSE). Você pode usar, modificar e distribuir conforme as condições desta licença.
